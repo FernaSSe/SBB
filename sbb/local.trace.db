@@ -1,0 +1,58 @@
+2024-09-24 23:11:06.984231+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * [*]form question"; SQL statement:
+select * form question [42000-224]
+2024-09-24 23:11:27.398097+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * [*]form QUESTION"; SQL statement:
+select * form QUESTION [42000-224]
+2024-09-25 00:10:04.811070+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * where subject="""" [*]form question"; SQL statement:
+select * where subject="" form question [42000-224]
+2024-09-25 00:10:08.976616+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * where subject= form [*]question"; SQL statement:
+select * where subject= form question [42000-224]
+2024-09-25 00:10:19.409574+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * where subject='' [*]form question"; SQL statement:
+select * where subject='' form question [42000-224]
+2024-09-25 00:10:23.404945+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select where subject='' [*]form question"; SQL statement:
+select where subject='' form question [42000-224]
+2024-09-25 00:10:53.877550+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * [*]form question where subject="""""; SQL statement:
+select * form question where subject="" [42000-224]
+2024-09-25 00:11:16.701610+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * where id>=5 [*]from question"; SQL statement:
+select * where id>=5 from question [42000-224]
+2024-09-25 00:11:24.402731+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * where id>4[*]from question"; SQL statement:
+select * where id>4from question [42000-224]
+2024-09-25 00:11:30.837593+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * where id>4 [*]from question"; SQL statement:
+select * where id>4 from question [42000-224]
+2024-09-25 00:11:36.981261+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * where 4<id [*]from question"; SQL statement:
+select * where 4<id from question [42000-224]
+2024-09-25 00:11:39.544843+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * where 4<id [*]from question"; SQL statement:
+select * where 4<id from question [42000-224]
+2024-09-25 00:14:53.536998+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from answer where question [*]id>=5"; SQL statement:
+select * from answer where question id>=5 [42000-224]
+2024-09-25 00:15:27.101620+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from answer where question_id>=5\000d\000a[*]delete from answer where question_id>=5"; SQL statement:
+select * from answer where question_id>=5
+delete from answer where question_id>=5 [42000-224]
+2024-09-25 00:15:39.782403+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from answer where question_id>=5\000d\000a\000d\000a[*]delete from answer where question_id>=5"; SQL statement:
+select * from answer where question_id>=5
+
+delete from answer where question_id>=5 [42000-224]
+2024-09-25 00:15:42.768510+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from answer where question_id>=5\000d\000a\000d\000a[*]delete from answer where question_id>=5"; SQL statement:
+select * from answer where question_id>=5
+
+delete from answer where question_id>=5 [42000-224]
+2024-09-25 00:15:57.836197+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from answer\000d\000a\000d\000adelete [*]from answer where question_id>=5"; SQL statement:
+select * from answer
+
+delete from answer where question_id>=5 [42000-224]
